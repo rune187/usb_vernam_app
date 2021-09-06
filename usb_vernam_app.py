@@ -1,4 +1,5 @@
 #サービス名を入力するとアカウントとパスワードを検索できるアプリ。パスワードは独自に暗号化して保存
+#変更
 import PySimpleGUI as sg
 import csv,pyperclip,string,random
 

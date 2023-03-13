@@ -20,7 +20,7 @@ def verification():
             break
         if event == 'btn_1':
             try:
-                with open('/Volumes/RUNE03/key_data.csv','r+',encoding='utf-8') as f:
+                with open('/Volumes/USB_name/key_data.csv','r+',encoding='utf-8') as f: #USB_nameにはUSBメモリにつけた任意の名前を各々の環境で書き換える
                     reader = csv.reader(f)
                     get_elems = [i for i in reader]
                     gen_gui()
